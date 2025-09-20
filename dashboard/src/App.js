@@ -21,8 +21,7 @@ function App() {
           <div className="content-area flex-grow-1">
             <main className="p-4">
               <Routes>
-                <Route path="/" element={<Navigate to="/dashboard" replace />} />
-                <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/" element={<Dashboard />} />
                 <Route path="/marketplace" element={<Marketplace />} />
                 <Route path="/orders" element={<Orders />} />
                 <Route path="/tracking" element={<Tracking />} />
